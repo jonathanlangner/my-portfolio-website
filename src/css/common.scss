@@ -1,0 +1,318 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F8F9FA - almost white
+#50B3FF - sky blue
+*/
+
+
+/* Global styles
+------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Source Sans Pro");
+@import url("https://cdn.lineicons.com/2.0/LineIcons.css");
+
+body{
+    background-color: #F8F9FA;
+    font-family: "Source Sans Pro", "serif";
+    font-size: 16px !important;
+
+}  
+
+hr{
+    margin: 0.20rem 0rem;
+}
+
+button{
+    border: none;
+    font-size: large;
+}
+
+h3 h4 h5{
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+.social-links{
+    font-size: 1.55rem;
+    text-decoration: none;
+    margin: 1rem;
+    color: black;
+}
+
+.social-links-icons{
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.pic-mobile{
+    height: 25rem;
+    width:25rem;
+}
+.pic-mobile:hover{
+    box-shadow: 5px 5px 20px black;
+}
+
+
+
+/* Banner styles
+------------------------------------*/
+
+.decorative-banner-mobile{
+    background-color: rgb(16, 123, 205);
+    /* background: url("../images/banner.png"); */
+    background-repeat: no-repeat;
+    background-position: 50%; 
+    margin-bottom: 2rem;
+    height:31.5rem;
+}
+.decorative-banner-desktop{
+    background-color: rgb(16, 123, 205);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    /* background: url("../images/banner.png"); */
+    background-repeat: no-repeat;
+    background-position: -35px; 
+    margin-bottom: 2rem;
+    height:31.5rem;
+}
+
+
+.decorative-label{
+    height: 5.5rem;
+    font-weight: 300;
+    text-shadow: 0rem 2.5rem 1.25rem rgb(0, 57, 122);
+}
+
+@keyframes change-text{
+   0%{
+    content: attr(data-hover);
+    transform: translate(-10vw, 0);
+   }
+   50%{
+    content: attr(data-active);
+
+   }
+   100%{
+    transform: translate(10vw, 0);
+   }
+}
+
+.decorative-label::before{
+    display: inline-block;
+    content: attr(data-hover);
+    font-size: 2.0rem;
+    animation: change-text;
+	animation-timing-function: linear;
+	animation-direction: normal;
+	animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* Skill styles
+------------------------------------*/
+.description-container{
+    background-color: whitesmoke;
+    border: 2px outset whitesmoke;
+    box-shadow: 2px 2px 8px whitesmoke;
+}
+
+.skill {
+    height: 1rem;
+    width: 10rem;
+    /*margin-top: 1rem;*/
+}
+
+.skill-back {
+    height: 1.5rem;
+    width: 10.5rem;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.skill-rate {
+    text-align: center; 
+    color: white; 
+    background-color: whitesmoke;
+    width: 70%;
+    border: none;
+    height: 100%;
+    border:solid black 4px;
+    border-radius:30px;
+    margin-bottom: 1rem;
+}
+.skill-level {
+  color: black;
+  margin-left: 2.0rem;
+  font-weight: bold;
+  font-size: 1.35rem;
+}
+.skill-meter {
+    width: 50%;
+    height: 1.35rem; 
+    background-color: rgb(12, 90, 174);
+    border-radius:30px;
+}
+
+.bullet-skill{
+    margin-left: 0.50rem; 
+    list-style-type: square;
+    font-style: italic;
+}
+
+
+.my-profile-pic-desk{
+    border: 2px solid whitesmoke;
+    box-shadow: inset 5px;
+    height: auto;
+    width:75%;
+    border-radius: 50%;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+
+.my-profile-pic-mobile{
+    border: 2px solid whitesmoke;
+    height: auto;
+    width:15rem;
+    border-radius: 50%;
+}
+
+/* Profile Image styles
+------------------------------------*/
+.profile-image{
+    height:15rem;
+    width:15rem;
+}
+
+
+
+/* Nav-Bar or Link styles
+------------------------------------*/
+
+.nav-link{
+    color: black;
+    width: 100%;
+    font-size: 1.65rem;
+    margin-top: 1rem;
+}
+.nav-link:hover{
+    color: black;
+    background-color: rgb(98, 184, 255);
+    width: 100%;
+    font-size: 1.65rem;
+    margin-top: 1rem;
+}
+.active, .active-page, .nav-pills{
+    background-color: rgb(0, 128, 255);
+}
+ .navbar-toggler{
+     background-color: #F8F9FA;
+     font-size: 3.5rem;
+ }
+    .dropdown-item{
+        font-size: 1.35rem;
+    }
+
+ .link{
+    width: 30rem; 
+    font-size: 2.0rem;
+    margin: 0rem 2.5rem;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 0px 4px;
+    box-shadow: 2px 2px black;
+}
+ .link:hover{
+    width: 30rem; 
+    box-shadow: 5px 5px black;
+    color:black;
+    background-color: #f0f4f7;
+    font-weight: bold;
+}
+
+
+.link-img{
+    opacity: 0.5;
+}
+
+.link-img:hover{
+    opacity: 1.0;
+}
+
+
+/* Blog styles
+------------------------------------*/
+
+.blog-articles{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-post{
+    text-decoration: none;
+    color:black;
+    font-size: 1.25rem;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 1.0rem;
+}
+
+
+/* Article styles
+------------------------------------*/
+.current-article{
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.article-container{
+    border: 2px outset whitesmoke;
+    box-shadow: 5px 5px 2px rgb(134, 133, 133);
+}
+
+.article-img{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width:50%;
+    height: 15rem;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.donate-btn-resume{
+    padding: 1rem;
+    text-decoration: none;
+    color:black;
+    background-color: #F8F9FA;
+}
+.donate-btn-resume:hover{
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+}
+.donate-btn{
+    padding: 1rem;
+    text-decoration: none;
+    color:#F8F9FA;
+    background-color: #0C3E6A;
+}
+.donate-btn:hover{
+    text-decoration: none;
+    color:white;
+    background-color: #011a30;
+}
