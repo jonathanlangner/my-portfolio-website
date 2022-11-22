@@ -5,6 +5,7 @@ import CodeChallenge1 from "../images/codepen-counter-challenge.png";
 import Chess from "../images/Chess.png";
 import quickDice from "../images/quick-dice-war.png";
 import accessTest from "../images/access-sample.png";
+import intrepidWeather from "../images/intrepid-weather.png"
 
 const PortfolioDoc = function () {
   return (
@@ -16,6 +17,19 @@ const PortfolioDoc = function () {
          This Portfolio Page is a showcase of some of my favorite projects, and skills.
          </h1>
          <hr></hr>
+         <div className="m-3 d-inline-block">
+         <h3>Intrepid Weather App</h3>
+        <a href="https://interprid-weather-alpha.netlify.app" title="Intrepid Weather">
+          <img className="pic-mobile" src={intrepidWeather} alt="intrepid-weather"></img>
+        </a>
+        </div>
+        <div className="m-3 d-inline-block">
+        <h3>Codepen JS Chess Game Styling</h3>
+        <a href="https://codepen.io/jonlangner/pen/WNzoeQv"  title="JS Chess Game">
+                    <img className="pic-mobile" src={Chess} alt="JS Chess Game"></img>
+        </a>
+        </div>
+         <hr className="mt-5"></hr>
          <div className="m-3 d-inline-block">
          <h3>Quick Dice War</h3>
         <a href="https://quick-dice-war-334b51.netlify.app" title="Quick Dice Game">
@@ -29,12 +43,6 @@ const PortfolioDoc = function () {
           </a>
         </div>
         <hr></hr>
-        <div className="m-3 d-inline-block">
-        <h3>Codepen JS Chess Game Styling</h3>
-        <a href="https://codepen.io/jonlangner/pen/WNzoeQv"  title="JS Chess Game">
-                    <img className="pic-mobile" src={Chess} alt="JS Chess Game"></img>
-        </a>
-        </div>
         <div className="m-3 d-inline-block">
         <h3>Codepen Grocery List Styling</h3>
         <a className="mx-1" href="https://codepen.io/jonlangner/pen/rNJZVxG" title="Code Pen Grocery List">
