@@ -14,16 +14,16 @@ const HomeDoc = function(){
                         <img title="Programmer - Teacher" className="mt-3 mb-3 my-profile-pic-mobile" src={ProfilePic} alt="A teacher and programmer with a smile and some glasses."></img>
                             <div className="description-container mt-5">
                                 <h2 title="Software Developer - Programmer" className="text-center">Jonathan Langner</h2>
-                                <h4 title="Jonathan Langner" data-hover="Web Developer" data-active="Programmer" className="description text-center decorative-label" > </h4>
+                                <h4 title="Jonathan Langner" data-hover="Web Developer" data-active="Designer" className="description text-center decorative-label" > </h4>
                             </div>
                         </div>
                     </div>
                     <section title="My Profile" className="mt-5">
                     <hr className="mt-2"></hr>
                             <h2 className="text-center mt-3">About Me</h2>
-                            <h5 className="text-center">👋🙂 Hi there! I am Jonathan.</h5>
-                            <h5 className="text-center">I am a web developer presently looking for work, as I would like to use my skill set 
-                            to build excellent websites, products, and applications.</h5>
+                            <h5 className="text-center">👋🙂 Hello there! I am Jonathan.</h5>
+                            <h5 className="text-center">I am a web developer presently looking to add value to a company and team. I use my abilities 
+                            to construct excellent websites, products, and applications which enrich people's lives.</h5>
                         </section>
                         <section title="Location">
                             <h3 className="mt-2 text-center"><li className="lni lni-home social-links"> Residence</li></h3>
@@ -34,11 +34,10 @@ const HomeDoc = function(){
                             <h5 className="color-acc-white text-center"> jonathanlangnerdev@gmail.com </h5>
                         </section>
                         <hr className="mt-3"></hr>
-                        <section title="Random Facts" className="mt-4">
-                            <h3 className="text-center">Random Facts</h3>
-                            <h5 className="text-center">My first programming language I learned was C++.</h5>
-                            <h5 className="text-center">I enjoy hiking, exercise and exploration, particularly when it comes to mountains. </h5>
-                            <h5 className="text-center">My development skills are actively improving, so feel free to check back from time to time.</h5>
+                        <section title="Fun Facts" className="mt-4">
+                            <h3 className="text-center">Fun Facts</h3>
+                            <h5 className="text-center">Learning is one of my favorite pass times, and I am constantly invested in improving my design skills and helping others however I can.</h5>
+                            <h5 className="text-center">I appreciate exercise, and exploration of new places when ever I have the chance. </h5>
                         </section>
                         <section title="What I Do">
                             <hr className="mt-5"></hr>
@@ -47,11 +46,11 @@ const HomeDoc = function(){
                             <h5 className="text-center mt-3">I specialize in Web Development. 
                             At present my strongest skill set is Front End Web Development consisting of HTML, CSS, JavaScript, and React.
                             </h5>
-                            <h5 className="text-center mt-4">I am also working to expand my skill set to be more Full Stack, by learning: Design, Testing, Data Structures, and Algorithms. 
+                            <h5 className="text-center mt-4">I am studying to expand my capabilities to be more Full Stack, by studying: Design, Testing, Data Structures, and Algorithms. 
                             </h5>
                         </section>
                     <hr className="mt-5"></hr>
-                    <h3 className="mt-3">My Skills:</h3>
+                    <h3 className="mt-3">Design Skills:</h3>
                     <img title="HTML5" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-HTML5-E34F26?logo=HTML5&logoColor=white" alt="HTML5" height="35px" />
                     <img title="CSS3" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-CSS 3-1572B6?logo=CSS3&logoColor=white" alt="CSS3" height="35px" /> 
                     <img title="JavaScript" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=black" alt="JavaScript" height="35px" />
@@ -68,7 +67,17 @@ const HomeDoc = function(){
                     <img title="GitHub" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-GitHub-4285F4?logo=GitHub&logoColor=white" alt="GitHub" height="35px" />
                     <img title="Visual Studio Code" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Visual Studio Code-007ACC?logo=VisualStudioCode&logoColor=white" alt="Visual Studio Code" height="35px" />
                     <img title="Firefox" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Firefox-orange?logo=Firefox&logoColor=black" alt="Firefox" height="35px" />
-                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Google Chrome-4285F4?logo=GoogleChrome&logoColor=white" alt="Google Chrome" height="35px" />      
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Google Chrome-4285F4?logo=GoogleChrome&logoColor=white" alt="Google Chrome" height="35px" />
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Figma-000000?logo=Figma&logoColor=white" alt="Figma" height="35px" />
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Java-ff5500?logo=OpenJDK&logoColor=white" alt="Java" height="35px" />
+                    <h3 className="mt-3">Personal Training Skills:</h3>
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Program Design-FF0000?&logoColor=white" alt="Program Design" height="35px" />    
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Exercise Techniques-FF0000?&logoColor=white" alt="Exercise Techniques" height="35px" />   
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Goal Setting-FF0000?&logoColor=white" alt="Goal Setting" height="35px" />   
+                    <img title="Google Chrome" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Exercise Instruction-FF0000?&logoColor=white" alt="Exercise Instruction" height="35px" />   
+                    <hr className="mt-5"></hr> 
+                    <h3 className="mt-3">Certifications Obtained in 2023:</h3>  
+                    <a href="https://credentials.acefitness.org/caa8800a-5fe8-48b2-942e-241a6ab7136a#gs.sesvhn"><img alt="ace-personal trainer certification"src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/68981683"></img></a>      
                     <hr className="mt-5"></hr>  
                     <SocialMediaContainer></SocialMediaContainer>
                     <BuyMeACoffeeMobile></BuyMeACoffeeMobile>

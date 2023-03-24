@@ -1,4 +1,5 @@
 const BuyMeACoffeeDesktop = function () {
+  const copyRight = new Date().getFullYear();
   return (
     <section className="text-center mt-4 mb-2">
       <h3 className="mt-3">Donate</h3>
@@ -12,7 +13,7 @@ const BuyMeACoffeeDesktop = function () {
           Buy me a coffee
         </a>{" "}
       </h5>
-      <h6 className="mt-5 text-center">&#169; 2022 All rights reserved.</h6>
+      <h6 className="mt-5 text-center">&#169; {copyRight} All rights reserved.</h6>
     </section>
   );
 };
