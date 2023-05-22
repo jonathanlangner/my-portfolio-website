@@ -2,6 +2,7 @@ const BuyMeACoffeeDesktop = function () {
   const copyRight = new Date().getFullYear();
   return (
     <section className="text-center mt-4 mb-2">
+     <hr className="mt-5"></hr> 
       <h3 className="mt-3">Donate</h3>
       <h5 className="mt-3 mb-3">
         <a

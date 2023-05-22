@@ -97,7 +97,7 @@ const BlogDoc = function () {
           </section>
           <hr className="mt-3"></hr>
           <SocialMediaContainer></SocialMediaContainer>
-          <BuyMeACoffeeMobile></BuyMeACoffeeMobile>
+          {/* <BuyMeACoffeeMobile></BuyMeACoffeeMobile> */}
           </div>
         </div>
     </Fragment>

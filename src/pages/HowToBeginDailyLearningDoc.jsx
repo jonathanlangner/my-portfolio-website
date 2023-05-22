@@ -96,7 +96,7 @@ export const HowToBeginDailyLearningDoc = function(){
                             </article>
                             <hr className="mt-3"></hr>
                             <SocialMediaContainer></SocialMediaContainer>
-                            <BuyMeACoffeeMobile></BuyMeACoffeeMobile>
+                            {/* <BuyMeACoffeeMobile></BuyMeACoffeeMobile> */}
                         </div>
                     </div>
                 </div>

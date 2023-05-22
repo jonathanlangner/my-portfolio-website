@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 
 const SocialMediaContainer = function(){
+        const copyRight = new Date().getFullYear();
     return(
             <Fragment>
                     <h3 className="mt-3 text-center">Social Media</h3>
@@ -10,6 +11,8 @@ const SocialMediaContainer = function(){
                                 <a title="Jonathan Langner on Github" href="https://github.com/jonathanlangner" className="lni lni-github-original social-links-icons" ><br></br><span className="text-dark">Github</span></a>
                                 <a title="Jonathan Langner on Codepen" href="https://codepen.io/jonlangner" className="lni lni-codepen social-links-icons"><br></br><span className="text-dark">Codepen</span></a>
                         </section>
+                        <hr></hr>
+                        <h6 className="mt-5 text-center">&#169; {copyRight} All rights reserved.</h6>
             </Fragment>
     );
 }

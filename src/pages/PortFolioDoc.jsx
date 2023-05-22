@@ -14,7 +14,7 @@ const PortfolioDoc = function () {
         <div className="container">
          <hr></hr>
          <h1>
-         This Portfolio Page is a showcase of some of my favorite projects, and skills.
+         This Portfolio Page is a showcase of a few of my projects and skills.
          </h1>
          <hr></hr>
          <div className="m-3 d-inline-block">
@@ -58,7 +58,7 @@ const PortfolioDoc = function () {
           </div> 
           <hr className="mt-5"></hr>
           <SocialMediaContainer></SocialMediaContainer>
-          <BuyMeACoffeeMobile></BuyMeACoffeeMobile>
+          {/* <BuyMeACoffeeMobile></BuyMeACoffeeMobile> */}
         </div>
       </div>
     </Fragment>

@@ -65,6 +65,7 @@ h3 h4 h5{
     background-position: 50%; 
     margin-bottom: 2rem;
     height:31.5rem;
+    box-shadow: 4px 4px #dedede;
 }
 .decorative-banner-desktop{
     background-color: rgb(16, 123, 205);
@@ -75,13 +76,14 @@ h3 h4 h5{
     background-position: -35px; 
     margin-bottom: 2rem;
     height:31.5rem;
+    box-shadow: 4px 4px #dedede;
 }
 
 
 .decorative-label{
     height: 5.5rem;
-    font-weight: 300;
-    text-shadow: 0rem 2.5rem 1.25rem rgb(0, 57, 122);
+    text-shadow: 0rem 2.5rem 0.70rem rgb(0, 57, 122);
+    font-weight: 800;
 }
 
 @keyframes change-text{
@@ -115,6 +117,8 @@ h3 h4 h5{
     background-color: whitesmoke;
     border: 2px outset whitesmoke;
     box-shadow: 2px 2px 8px whitesmoke;
+    box-shadow: 4px 4px #dedede;
+    
 }
 
 .skill {
@@ -158,6 +162,26 @@ h3 h4 h5{
     border-radius:30px;
 }
 
+.text-adjust{
+    padding: 1rem;
+    text-align: left;
+}
+.design-skill{
+    height:35px;
+    width: 8.0rem;
+    margin: 1rem;
+    box-shadow: 4px 4px #b0b1b1;
+    border-radius: 20%;
+}
+
+.inline-design-skill{
+    height:35px;
+    margin: 0.5rem;
+    box-shadow: 4px 4px #b0b1b1;
+    border-radius: 20%;
+}
+
+
 .bullet-skill{
     margin-left: 0.50rem; 
     list-style-type: square;
@@ -180,6 +204,34 @@ h3 h4 h5{
     width:15rem;
     border-radius: 50%;
 }
+.cert-link{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px #454545;
+    border-radius: 50%;
+    
+}
+.cert-link:hover{
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 8px 8px #929292;
+}
+
+.flex-set{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.home-card{
+    flex-grow:1;
+    width:30rem;
+    background-color: #ffffff;
+    box-shadow: 4px 4px #e8e8e8;
+}
+.home-card-spec{
+    background-color: #ffffff;
+    box-shadow: 4px 4px #e8e8e8;
+}
 
 /* Profile Image styles
 ------------------------------------*/
@@ -198,6 +250,8 @@ h3 h4 h5{
     width: 100%;
     font-size: 1.65rem;
     margin-top: 1rem;
+    box-shadow: 2px 2px #b4b4b4;
+    border: 2px solid black;
 }
 .nav-link:hover{
     color: black;
@@ -205,9 +259,12 @@ h3 h4 h5{
     width: 100%;
     font-size: 1.65rem;
     margin-top: 1rem;
+    box-shadow: 4px 4px #7d7d7d;
 }
 .active, .active-page, .nav-pills{
     background-color: rgb(0, 128, 255);
+    font-weight: 800;
+    color: white;
 }
  .navbar-toggler{
      background-color: #F8F9FA;
