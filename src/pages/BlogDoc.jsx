@@ -32,7 +32,7 @@ const BlogDoc = function () {
                     </span>
                   </h5>
                   <p className="card-text">
-                    What skills do you need to really improve as a programmer?
+                    What skills do you need to be studying and using to improve as a programmer?
                   </p>
                 </div>
               </div>
@@ -58,9 +58,7 @@ const BlogDoc = function () {
                     </span>
                   </h5>
                   <p className="card-text">
-                    This article is written for those who want to get into
-                    Programming and it describes some of the common
-                    misconceptions you will run into.
+                  This article is written for those who want to begin programming and describes a few common misconceptions you will find within the industry.
                   </p>
                 </div>
               </div>
@@ -79,17 +77,13 @@ const BlogDoc = function () {
                 ></img>
                 <div className="card-body">
                   <h5 className="card-title">
-                    How to Begin Daily Learning <br></br>(5 Minute Read){" "}
+                    How to Begin Daily Learning <br></br>(3 Minute Read){" "}
                     <span className=" m-3 date">
                       <time dateTime="2021-12-27"> 27 Dec 2021</time>
                     </span>
                   </h5>
                   <p className="card-text">
-                    Sometimes you may have asked yourself: "What process can I
-                    use to begin developing who I am as a person daily?"
-                    <br></br>
-                    This article is written to help you get started with your
-                    learning journey.
+                    This article answers the questions you may have about beginning your active learning journey.
                   </p>
                 </div>
               </div>

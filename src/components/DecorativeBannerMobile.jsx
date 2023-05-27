@@ -1,4 +1,4 @@
-import ProfilePic from "../images/Jonathan_Langner.jpg";
+import ProfilePic from "../images/Jonathan_Langner.png";
 
 const DecorativeBannerMobile = function(){
    return(

@@ -116,8 +116,7 @@ h3 h4 h5{
 .description-container{
     background-color: whitesmoke;
     border: 2px outset whitesmoke;
-    box-shadow: 2px 2px 8px whitesmoke;
-    box-shadow: 4px 4px #dedede;
+    // box-shadow: 2px 2px 8px whitesmoke;
     
 }
 
@@ -331,6 +330,11 @@ h3 h4 h5{
     height: auto;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.current-article li{
+    list-style-type: disc;
+    text-align: left;
 }
 
 .article-container{

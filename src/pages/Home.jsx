@@ -1,4 +1,4 @@
-import ProfilePic from "../images/Jonathan_Langner.jpg";
+import ProfilePic from "../images/Jonathan_Langner.png";
 import SocialMediaContainer from '../components/SocialMediaContainer';
 import BuyMeACoffeeMobile from '../components/BuyMeACoffeeMobile';
 import { Fragment } from 'react';
