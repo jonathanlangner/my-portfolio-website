@@ -22,7 +22,7 @@ const HomeDoc = function(){
                     <hr className="mt-2"></hr>
                             <h5 className="text-center">Designer ~ Web Developer which is looking to add value to a company and team. I use my abilities 
                             to construct excellent websites, products, and applications which enrich people's lives.</h5>
-                            <h5 className="text-center">Learning is one of my favorite pass times, and I am constantly invested in improving my design skills and helping others however I can. 
+                            <h5 className="text-center">Learning is one of my favorite pastimes, and I am constantly invested in improving my design skills and helping others however I can. 
                             </h5>
                            
                         </section>
