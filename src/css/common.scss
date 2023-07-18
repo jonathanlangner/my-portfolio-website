@@ -111,6 +111,14 @@ h3 h4 h5{
     animation-iteration-count: infinite;
 }
 
+.contact-banner{
+    margin: 0;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 /* Skill styles
 ------------------------------------*/
 .description-container{

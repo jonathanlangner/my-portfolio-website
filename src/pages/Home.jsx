@@ -24,11 +24,11 @@ const HomeDoc = function(){
                             to construct excellent websites, products, and applications which enrich people's lives.</h5>
                             <h5 className="text-center">Learning is one of my favorite pastimes, and I am constantly invested in improving my design skills and helping others however I can. 
                             </h5>
-                           
                         </section>
-                        <hr className="mt-3"></hr>
+    
+                    <hr className="mt-2"></hr>
                         <section className="flex-set">
-                                    <section className="home-card m-3">
+                                    <section className="home-card m-3" title="Design">
                                         <h3 className="text-center mt-3"> 🏔 Designer</h3>
                                         <h5 className="mt-3 text-adjust"> I enjoy being creative and providing a thoughtful perspective to the problems and opportunities of modern design.
                                         </h5>
@@ -41,7 +41,7 @@ const HomeDoc = function(){
                                         </h5>
                                     </section>
                                     <section className="home-card m-3">
-                                        <h3 className="text-center mt-3"> 🕸 Web Developer</h3>
+                                        <h3 className="text-center mt-3" title="Web Development"> 🕸 Web Developer</h3>
                                         <h5 className="mt-3 text-adjust">I specialize in Web Development. 
                                         At present: my best skill set is Front End Web Development consisting of HTML, CSS, JavaScript, and React.
                                         </h5>
@@ -52,8 +52,8 @@ const HomeDoc = function(){
                                         <img className="inline-design-skill" title="Algorithms" src="https://img.shields.io/badge/- 🧮 Algorithms -007ACC?&logoColor=white" alt="Algorithms"/>
                                         </h5>
                                     </section>
-                            <section className="home-card m-3">
-                                    <h3 className="mt-3"> 📐Design Tech Tools I use:</h3>
+                            <section className="home-card m-3" title="Additional Design Tools">
+                                    <h3 className="mt-3"> 📐 Additional Design Tools</h3>
                                     <img className="design-skill " title="Visual Studio Code" src="https://img.shields.io/badge/-Visual Studio Code-007ACC?logo=VisualStudioCode&logoColor=white" alt="Visual Studio Code"/>
                                     <img className="design-skill " title="Figma" src="https://img.shields.io/badge/-Figma-000000?logo=Figma&logoColor=white" alt="Figma"/>
                                     <img className="design-skill " title="Firefox" src="https://img.shields.io/badge/-Firefox-orange?logo=Firefox&logoColor=black" alt="Firefox" />
@@ -68,8 +68,8 @@ const HomeDoc = function(){
                                     <img className="design-skill" title="GitHub" src="https://img.shields.io/badge/-GitHub-4285F4?logo=GitHub&logoColor=white" alt="GitHub"/>
                             </section>
 
-                            <section className="home-card m-3">
-                                    <h3 className="mt-3"> 🗃 My Stack:</h3>
+                            <section className="home-card m-3" title="My Stack">
+                                    <h3 className="mt-3"> 🗃 My Stack</h3>
                                     <img className="design-skill pic-skill" title="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?logo=HTML5&logoColor=white" alt="HTML5" />
                                     <img className="design-skill " title="CSS3" src="https://img.shields.io/badge/-CSS 3-1572B6?logo=CSS3&logoColor=white" alt="CSS3" /> 
                                     <img className="design-skill" title="JavaScript"  src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=black" alt="JavaScript"  />
@@ -84,10 +84,26 @@ const HomeDoc = function(){
                                     <img className="design-skill " title="Java"  src="https://img.shields.io/badge/-Java-ff5500?logo=OpenJDK&logoColor=white" alt="Java"/>
                             </section>
                     </section>
-                    
+                    <hr className="mt-5"></hr> 
+                
+                <h3 title="Contact" className="description">Contact</h3>
+                    <div className="contact-banner m-3" title="Contact">
+                        <div className="home-card m-3" title="Email">
+                            <h4 className="mt-3">✉️ Email</h4> 
+                            <h5>jonathanlangnerdev@gmail.com</h5> 
+                        </div>
+                        <div className="home-card m-3" title="Location">
+                            <h4 className="mt-3">📍Location</h4> 
+                            <h5>USA, Greater Rochester MN area</h5>
+                        </div>
+                        <div className="home-card m-3" title="Available for hire">
+                            <h4 className="mt-3">✅ Availability</h4>
+                            <h5>Available for hire</h5>
+                        </div>
+                    </div>
                     <hr className="mt-5"></hr> 
                     <section className="home-card-spec m-3">
-                        <h3 className="mt-3">🔅 Adding One More Thing:</h3>  
+                        <h3 className="mt-3 pt-3">🔅 One Other Thing:</h3>  
                         <h5>I am an ACE Certified Personal Trainer. While I am not actively using this certification at present for clients: I will be working on ways I can use this valuable skill set to help others reach their health goals. </h5>
                         <a href="https://credentials.acefitness.org/caa8800a-5fe8-48b2-942e-241a6ab7136a#gs.sesvhn"><img className="cert-link" title="ACE Certified Personal Trainer" alt="ace-personal trainer certification"src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/68981683"></img></a>      
                         <h3 className="mt-3">Personal Training Skills:</h3>
@@ -96,7 +112,7 @@ const HomeDoc = function(){
                         <img title="Goal Setting" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Goal Setting-FF0000?&logoColor=white" alt="Goal Setting" height="35px" />   
                         <img title="Exercise Instruction" style={{margin: 1 + "rem"}} src="https://img.shields.io/badge/-Exercise Instruction-FF0000?&logoColor=white" alt="Exercise Instruction" height="35px" />   
                     </section>
-                    <hr className="mt-5"></hr>  
+                    <hr className="mt-5"></hr>
                     <SocialMediaContainer></SocialMediaContainer>
                     {/* <BuyMeACoffeeMobile></BuyMeACoffeeMobile> */}
                 </div>

@@ -15,7 +15,7 @@ const PortfolioDoc = function () {
         <div className="container">
          <hr></hr>
          <h1>
-         A Few of My Personal Projects:
+         Projects
          </h1>
          <hr></hr>
          <div className="m-3 d-inline-block">
@@ -23,39 +23,39 @@ const PortfolioDoc = function () {
          <div className="m-3 d-inline-block">
           <h3>TicTacToe Game</h3>
           <a  className="m-3" href="https://tictactoe-fbb10f.netlify.app/" title="Accessibility Testing">
-            <img className="pic-mobile" src={TicTacToe} alt="TicTacToe"></img>
+            <img className="pic-mobile home-card" src={TicTacToe} alt="TicTacToe"></img>
           </a>
         </div>
         <div className="m-3 d-inline-block">
         <h3>JS Chess Game</h3>
         <a href="https://js-chess-33c20a.netlify.app/"  title="JS Chess Game">
-                    <img className="pic-mobile" src={Chess} alt="JS Chess Game"></img>
+                    <img className="pic-mobile home-card" src={Chess} alt="JS Chess Game"></img>
         </a>
         </div>
         <hr className="mt-5"></hr>
         <div className="m-3 d-inline-block">
         <h3>Dicey Business</h3>
         <a className="mx-1" href="https://dicey-business-82a7a1.netlify.app/" title="Code Pen Grocery List">
-                    <img className="pic-mobile" src={DiceyBusiness} alt="Dicey Business"></img>
+                    <img className="pic-mobile home-card"  src={DiceyBusiness} alt="Dicey Business"></img>
         </a>
         </div>
         <div className="m-3 d-inline-block">
          <h3>Intrepid Weather App</h3>
         <a href="https://interprid-weather-alpha.netlify.app" title="Intrepid Weather">
-          <img className="pic-mobile" src={intrepidWeather} alt="intrepid-weather"></img>
+          <img className="pic-mobile home-card" src={intrepidWeather} alt="intrepid-weather"></img>
         </a>
         </div>
          <hr className="mt-5"></hr>
          <div className="m-3 d-inline-block">
          <h3>Quick Dice War</h3>
         <a href="https://quick-dice-war-334b51.netlify.app" title="Quick Dice Game">
-          <img className="pic-mobile"src={quickDice} alt="quick-dice-war"></img>
+          <img className="pic-mobile home-card"src={quickDice} alt="quick-dice-war"></img>
         </a>
         </div>
         <div className="m-3 d-inline-block">
           <h3>Accessibility Testing</h3>
           <a  className="m-3" href="https://bootstrap-accessibility-test-b2dffa.netlify.app" title="Accessibility Testing">
-            <img className="pic-mobile" src={accessTest} alt="access-test"></img>
+            <img className="pic-mobile home-card" src={accessTest} alt="access-test"></img>
           </a>
         </div>
         </div>
